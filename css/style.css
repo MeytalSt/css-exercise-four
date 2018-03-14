@@ -17,7 +17,7 @@ h1 {
 
 top-bar {
   background-color: #dadada;
-  padding: 10px;
+  padding: 5px;
   border: 1px;
   margin: 5px;
   width: 420px;
@@ -33,24 +33,28 @@ top-bar {
 .preview {
     float: left;
     box-sizing: border-box;
-    padding: 10px;
+    height: 600px;
+    padding: 5px;
     border: 1px;
     margin: 5px;
     width: 100%;
 }
 
 .baku {
-    background-image: url(/images/baku.jpg);
+    background-image: url(../images/baku.jpg);
+
 }
 .london {
-  background-image: url(/images/london.jpg);
+  background-image: url(../images/london.png);
+  background-repeat: no-repeat;
 }
 
 .madrid {
-  background-image: url(/images/madrid.jpg);
+  background-image: url(../images/madrid.jpg);
+  background-repeat: no-repeat;
 
 }
 .rome {
-  background-image: url(/images/rome.jpg);
+  background-image: url(../images/rome.jpg);
 
 }
