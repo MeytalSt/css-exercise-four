@@ -1,4 +1,69 @@
+*, *: before, *: after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+top-bar {
+  background-color: #dadada;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  width: 420px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+  position: relative;
+}
+
+.preview-baku {
+    background: #dadada url("images/baku.jpg") no-repeat center;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 1em;
+}
+.preview-london {
+  background: url(images/london.jpg);
+  float: left;
+  box-sizing: border-box;
+  width: 90%;
+}
+.preview-madrid {
+  background: url(images/madrid.jpg);
+  float: left;
+  box-sizing: border-box;
+  width: 90%;
+}
+.preview-rome {
+  background: url(images/rome.jpg);
+  float: left;
+  box-sizing: border-box;
+  width: 90%;
 }
