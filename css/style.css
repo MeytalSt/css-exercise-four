@@ -27,7 +27,7 @@ top-bar {
 
 .container {
   margin: 0 auto;
-  width: 420px;
+  width: 100%;
   position: relative;
 }
 
@@ -78,6 +78,6 @@ h1 {
 @media screen and (min-width: 991px){
    .preview {
     margin: 1%;
-    width: 24%;
+    width: 23%;
   }
 }
