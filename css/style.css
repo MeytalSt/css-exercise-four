@@ -12,14 +12,15 @@ body {
 
 h1 {
   font-size: 1em;
+  font-weight: lighter;
   text-align: center;
 }
 
 top-bar {
   background-color: #dadada;
-  padding: 5px;
+  padding: 10px;
   border: 1px;
-  margin: 5px;
+  margin: 15px;
   width: 420px;
 }
 
@@ -33,16 +34,21 @@ top-bar {
 .preview {
     float: left;
     box-sizing: border-box;
-    height: 600px;
+    height: 300px;
     padding: 5px;
     border: 1px;
-    margin: 5px;
+    margin: 10px;
     width: 100%;
+    background-size: cover;
+}
+
+.preview h1 {
+    text-align: left;
+    margin: 20px;
 }
 
 .baku {
     background-image: url(../images/baku.jpg);
-
 }
 .london {
   background-image: url(../images/london.png);
@@ -52,9 +58,26 @@ top-bar {
 .madrid {
   background-image: url(../images/madrid.jpg);
   background-repeat: no-repeat;
-
 }
 .rome {
   background-image: url(../images/rome.jpg);
+}
 
+@media screen and (min-width: 575px){
+   .preview {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+h1 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+@media screen and (min-width: 991px){
+   .preview {
+    margin: 1%;
+    width: 24%;
+  }
 }
